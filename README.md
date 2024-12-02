@@ -22,6 +22,9 @@ Welcome to the Advanced JWT RBAC Authentication ! This project offers essential 
 - Seperate admin and user routes
 - User and Admin authentication using JWT
 
+## Deployment
+- Deployed [Here](https://rbac-authentication-with-jwt.onrender.com/)
+
 ## 📦 Getting Started
 
 - Clone the repository:
