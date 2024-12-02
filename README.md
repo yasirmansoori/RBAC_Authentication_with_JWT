@@ -50,6 +50,13 @@ You can generate your secret key by running the following command in your termin
 ```sh
 node -e "console.log(require('crypto').randomBytes(32).toString('hex'));"
 ```
+
+## 📚Postman Collection
+
+- [Postman Collection](https://elements.getpostman.com/redirect?entityId=27998287-93df7c7f-4fe1-4281-8883-f039dfaa61ff&entityType=collection)
+
+- Use the above Postman Collection to test the API endpoints, or import the collection.postman_collection.json file into Postman.
+
 ## 📚Schema Overview
 -   ### User
 
