@@ -133,32 +133,51 @@ node -e "console.log(require('crypto').randomBytes(32).toString('hex'));"
 <h1>Admin Routes -</h1>
 <table>
   <tr>
-    <th colspan="3" style="text-align:center">User</th>
+    <th colspan="5" style="text-align:center">Admin</th>
   </tr>
   <tr>
     <td>Endpoints</td>
     <td>Method</td>
     <td>Description</td>
+    <td>Parameters</td>
+    <td>Request Body</td>
   </tr>
   <tr>
     <td>/api/v1/admin/users</td>
     <td>GET</td>
     <td>Get all the users in the database.</td>
+    <td>None</td>
+    <td>None</td>
   </tr>
   <tr>
     <td>/api/v1/admin/users/:id</td>
     <td>GET</td>
     <td>Get a single user by id.</td>
+    <td>id</td>
+    <td>None</td>
   </tr>
     <tr>
     <td>/api/v1/admin/users/:id</td>
     <td>PUT</td>
     <td>Update a user by id.</td>
+    <td>id</td>
+    <td>
+      <pre>
+      {
+        "name": "string",
+        "email": "string",
+        "username": "string",
+        "password": "string",
+        "role": "string" 
+      }
+      </pre>
   </tr>
   <tr>
     <td>/api/v1/admin/users/:id</td>
     <td>DELETE</td>
     <td>Delete a user by id.</td>
+    <td>id</td>
+    <td>None</td>
   </tr>
 </table>
 
